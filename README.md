@@ -106,12 +106,31 @@ Camoufox is the most modern, effective & future-proof open source solution for a
 
 -   Quality of life features
     -   Human-like mouse movement 🖱️
+    -   **Ultra-realistic keyboard input** with proper key codes & typing patterns ⌨️
     -   Blocks & circumvents ads 🛡️
     -   No CSS animations 💨
 
 *   Debloated & optimized for memory efficiency ⚡
 *   [PyPi package](https://pypi.org/project/camoufox/) for updates & auto fingerprint injection 📦
 *   Stays up to date with the latest Firefox version 🕓
+
+---
+
+## Ultra-Realistic Keyboard Input
+
+Camoufox includes built-in ultra-realistic keyboard simulation that uses proper key codes (KeyA, Digit1, Shift+symbols) instead of simple character injection, making it completely undetectable. It simulates human typing patterns including variable speeds, natural pauses, and even occasional typing mistakes with corrections.
+
+```python
+from camoufox import AsyncCamoufox, type_realistic
+
+async with AsyncCamoufox() as browser:
+    page = await browser.new_page()
+    await page.goto('https://example.com')
+    await page.click('input[name="search"]')
+    await type_realistic(page, 'completely human typing!')
+```
+
+See [REALISTIC_TYPING.md](REALISTIC_TYPING.md) for full documentation and examples.
 
 ---
 
