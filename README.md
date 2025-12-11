@@ -21,9 +21,7 @@ Camoufox is an open source anti-detect browser for robust fingerprint injection 
 >
 > This fork upgrades Camoufox to **Firefox 142.0.1** and is maintained by [@sergqwer](https://github.com/sergqwer) while the original maintainer [@daijro](https://github.com/daijro) is recovering from a medical emergency (hospitalized since March 2025).
 >
-> When the original maintainer returns, this work will be contributed back upstream. In the meantime, this fork provides working Firefox 142 builds.
->
-> ❤️ **Wishing @daijro a full recovery.**
+> If you would like to support me, my USDT-trc20 address is: TM1adGVQqNSFbpF78TQFXAubQo2TodqV2C
 
 ---
 
