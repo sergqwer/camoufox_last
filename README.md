@@ -130,7 +130,6 @@ async with AsyncCamoufox() as browser:
     await type_realistic(page, 'completely human typing!')
 ```
 
-See [REALISTIC_TYPING.md](REALISTIC_TYPING.md) for full documentation and examples.
 
 ---
 
