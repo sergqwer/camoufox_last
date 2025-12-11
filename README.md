@@ -32,7 +32,7 @@ Camoufox is an open source anti-detect browser for robust fingerprint injection 
 **Install the Python package (recommended):**
 
 ```bash
-pip install git+https://github.com/sergqwer/camoufox.git@v.0.1-bluetaka.25#subdirectory=pythonlib
+pip install git+https://github.com/sergqwer/camoufox.git@v142.0.1-bluetaka.25#subdirectory=pythonlib
 ```
 
 ### Upgrading from Firefox 135 or Earlier
